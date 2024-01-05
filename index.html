@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admission form</title>
+    <style>
+      label {
+        display: block;
+        margin-bottom: 15px;
+      }
+      .ok {
+        margin-top: 8px;
+      }
+      fieldset > legend {
+        margin-bottom: 20px;
+      }
+      .colour {
+        background-color: darksalmon;
+        border: 6px solid cornflowerblue;
+        border-radius: 5px;
+        box-shadow: 8px 8px 10px rgb(235, 109, 235);
+        width: 40%;
+        margin-top: 20px;
+        margin-left: 15px;
+      }
+      .set {
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+        margin-right: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <section class="colour">
+        <fieldset class="set">
+          <legend><b>Admission Form</b></legend>
+          <label for="name">
+            Your Name: <input type="text" placeholder="your name" id=""
+          /></label>
+          <label for="email">
+            Your E-mail: <input type="email" placeholder="your mail" id=""
+          /></label>
+          <label for="password">
+            Your Password:
+            <input type="password" placeholder="your password" id=""
+          /></label>
+          <label for="confirm password">
+            Confirm Password:
+            <input type="password" placeholder="confirm password" name="" id=""
+          /></label>
+          <label for="number">
+            Your Phone No: <input type="number" placeholder="contact no" id=""
+          /></label>
+          <label for="date time">
+            Date & Time: <input type="date" placeholder="----" name="" id=""
+          /></label>
+          <section>
+            <p>Gender</p>
+            <label for="male"
+              ><input type="radio" name="gender" id="male" /> Male</label
+            >
+            <label for="female"
+              ><input type="radio" name="gender" id="female" /> Female</label
+            >
+          </section>
+
+          <p>Write your skill</p>
+          <textarea name="" id="" cols="40" rows="10"></textarea>
+
+          <label for="checkbox">
+            <input type="checkbox" name="" id="" />You are submitting the form
+            on condition that you follow all our rules.</label
+          >
+          <section class="ok">
+            <input type="submit" value="Submit" />
+            <input type="reset" value="Reset" />
+          </section>
+        </fieldset>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
